@@ -71,47 +71,55 @@
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
           </button>
+
           <ul class="mobile-menu-list-page">
-            <li class="mobile-menu-item-page">Studio</li>
-            <li class="mobile-menu-item-page">Portfolio</li>
-            <li class="mobile-menu-item-page">Contacts</li>
+            <li class="mobile-menu-item-page">
+             <a href="./index.html" class="mobile-menu-link-page link">Studio</a> </li>
+            <li class="mobile-menu-item-page">
+              <a href="./portfolio.html" class="mobile-menu-link-page link">Portfolio</a> </li>
+            <li class="mobile-menu-item-page">
+              <a href="" class="mobile-menu-link-page link">Contacts</a> </li>
           </ul>
-          <ul class="mobile-menu-list-contacts">
-            <li class="mobile-contacts-item">
-              <a href="tel:+11(000)111-11-11" class="mobile-link-text link">+11 (000) 111-11-11</a>
-            </li>
-            <li class="mobile-contacts-item">
-              <a href="mailto:info@devstudio.com" class="mobile-link-text link">info@devstudio.com</a>
-            </li>          
-          </ul>
-          <ul class="mobile-menu-soc-list list">
-            <li class="mobile-soc-item">
-              <a href="" class="mobile-soc-link link"
-                ><svg class="mobile-soc-icon" width="24" height="24">
-                  <use
-                    href="./images/icons.svg#icon-instagram"
-                  ></use></svg
-              ></a>
-            </li>
-            <li class="mobile-soc-item">
-              <a href="" class="mobile-soc-link link"
-                ><svg class="mobile-soc-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter"></use></svg
-              ></a>
-            </li>
-            <li class="mobile-soc-item">
-              <a href="" class="mobile-soc-link link"
-                ><svg class="mobile-soc-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use></svg
-              ></a>
-            </li>
-            <li class="mobile-soc-item">
-              <a href="" class="mobile-soc-link link"
-                ><svg class="mobile-soc-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin"></use></svg
-              ></a>
-            </li>
-          </ul>
+
+          <div class="mobile-menu-contacts">
+            <ul class="mobile-menu-list-contacts">
+              <li class="mobile-contacts-item">
+                <a href="tel:+11(000)111-11-11" class="mobile-link-tel link">+11 (000) 111-11-11</a>
+              </li>
+              <li class="mobile-contacts-item">
+                <a href="mailto:info@devstudio.com" class="mobile-link-text link">info@devstudio.com</a>
+              </li>          
+            </ul>
+            
+            <ul class="mobile-menu-soc-list list">
+              <li class="mobile-soc-item">
+                <a href="" class="mobile-soc-link link"
+                  ><svg class="mobile-soc-icon" width="24" height="24">
+                    <use
+                      href="./images/icons.svg#icon-instagram"
+                    ></use></svg
+                ></a>
+              </li>
+              <li class="mobile-soc-item">
+                <a href="" class="mobile-soc-link link"
+                  ><svg class="mobile-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use></svg
+                ></a>
+              </li>
+              <li class="mobile-soc-item">
+                <a href="" class="mobile-soc-link link"
+                  ><svg class="mobile-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use></svg
+                ></a>
+              </li>
+              <li class="mobile-soc-item">
+                <a href="" class="mobile-soc-link link"
+                  ><svg class="mobile-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
      
@@ -146,11 +154,19 @@
             <li class="item types-services">
               <a href="" class="services-wrap link">
                 <div class="services-item-wrap">
-                  <img
-                    src="./images/Portfolio1.jpg"
-                    alt="application tabs from the phone"
-                    width="360"
-                  />
+                  <picture>
+                    <source srcset="./images/Portfolio1desktop.jpg 1x, ./images/Portfolio1desktop@2x.jpg 2x," media="(min-width: 1200px)">
+                    <source srcset="./images/Portfolio1tablet.jpg 1x, ./images/Portfolio1tablet@2x.jpg 2x," media="(min-width: 768px)">
+                    <source srcset="./images/Portfolio1mobile.jpg 1x, ./images/Portfolio1mobile@2x.jpg 2x," media="(max-width: 767px)">
+                                     
+
+                    <img
+                      src="./images/Portfolio1.jpg"
+                      alt="application tabs from the phone"
+                      
+                    />
+                  </picture>
+                  <source>
                  <div class="services-overlay">
                     <p class="services-overlay-text">
                       14 Stylish and User-Friendly App Design Concepts · Task Manager
@@ -168,11 +184,19 @@
             <li class="item types-services">
               <a href="" class="services-wrap link">
                 <div class="services-item-wrap">
-                  <img
-                    src="./images/Portfolio2.jpg"
-                    alt="blue background"
-                    width="360"
-                  />
+                  <picture>
+                    <source srcset="./images/Portfolio2desktop.jpg 1x, ./images/Portfolio2desktop@2x.jpg 2x," media="(min-width: 1200px)">
+                    <source srcset="./images/Portfolio2tablet.jpg 1x, ./images/Portfolio2tablet@2x.jpg 2x," media="(min-width: 768px)">
+                    <source srcset="./images/Portfolio2mobile.jpg 1x, ./images/Portfolio2mobile@2x.jpg 2x," media="(max-width: 767px)">
+                    
+                    
+                    <img
+                      src="./images/Portfolio2.jpg"
+                      alt="blue background"
+                      
+                    />
+                  </picture>
+                  
                   <div class="services-overlay">
                     <p class="services-overlay-text">
                       14 Stylish and User-Friendly App Design Concepts · Task Manager
@@ -190,11 +214,17 @@
             <li class="item types-services">
               <a href="" class="services-wrap link">
                 <div class="services-item-wrap">
-                  <img
-                    src="./images/Portfolio3.jpg"
-                    alt="an image of a laptop and a smartphone"
-                    width="360"
-                  />
+                  <picture>
+                    <source srcset="./images/Portfolio3desktop.jpg 1x, ./images/Portfolio3desktop@2x.jpg 2x," media="(min-width: 1200px)">
+                    <source srcset="./images/Portfolio3tablet.jpg 1x, ./images/Portfolio3tablet@2x.jpg 2x," media="(min-width: 768px)">
+                    <source srcset="./images/Portfolio3mobile.jpg 1x, ./images/Portfolio3mobile@2x.jpg 2x," media="(max-width: 767px)">
+                    <img
+                      src="./images/Portfolio3.jpg"
+                      alt="an image of a laptop and a smartphone"
+                     
+                    />
+                  </picture>
+                  
                   <div class="services-overlay">
                     <p class="services-overlay-text">
                       14 Stylish and User-Friendly App Design Concepts · Task Manager
@@ -212,11 +242,16 @@
             <li class="item types-services">
               <a href="" class="services-wrap link">
                 <div class="services-item-wrap">
-                  <img
-                    src="./images/Portfolio4.jpg"
-                    alt="smartphone taxi service application"
-                    width="360"
-                  />
+                  <picture>
+                    <source srcset="./images/Portfolio4desktop.jpg 1x, ./images/Portfolio4desktop@2x.jpg 2x," media="(min-width: 1200px)">
+                    <source srcset="./images/Portfolio4tablet.jpg 1x, ./images/Portfolio4tablet@2x.jpg 2x," media="(min-width: 768px)">
+                    <source srcset="./images/Portfolio4mobile.jpg 1x, ./images/Portfolio4mobile@2x.jpg 2x," media="(max-width: 767px)">
+                    <img
+                      src="./images/Portfolio4.jpg"
+                      alt="smartphone taxi service application"
+                      width="360"
+                    />
+                  </picture>
                   <div class="services-overlay">
                     <p class="services-overlay-text">
                       14 Stylish and User-Friendly App Design Concepts · Task Manager
@@ -234,11 +269,17 @@
             <li class="item types-services">
               <a href="" class="services-wrap link">
                 <div class="services-item-wrap">
-                  <img
-                    src="./images/Portfolio5.jpg"
-                    alt="screen Illustrations with Moon and Space"
-                    width="360"
-                  />
+                  <picture>
+                    <source srcset="./images/Portfolio5desktop.jpg 1x, ./images/Portfolio5desktop@2x.jpg 2x," media="(min-width: 1200px)">
+                    <source srcset="./images/Portfolio5tablet.jpg 1x, ./images/Portfolio5tablet@2x.jpg 2x," media="(min-width: 768px)">
+                    <source srcset="./images/Portfolio5mobile.jpg 1x, ./images/Portfolio5mobile@2x.jpg 2x," media="(max-width: 767px)">
+                    <img
+                      src="./images/Portfolio5.jpg"
+                      alt="screen Illustrations with Moon and Space"
+                      width="360"
+                    />
+                  </picture>
+
                   <div class="services-overlay">
                     <p class="services-overlay-text">
                       14 Stylish and User-Friendly App Design Concepts · Task Manager
@@ -256,11 +297,17 @@
             <li class="item types-services">
              <a href="" class="services-wrap link">
                <div class="services-item-wrap">
-                  <img
-                    src="./images/Portfolio6.jpg"
-                    alt="a woman in headphones with a smartphone listens to music or courses"
-                    width="360"
-                  />
+                 <picture>
+                  <source srcset="./images/Portfolio6desktop.jpg 1x, ./images/Portfolio6desktop@2x.jpg 2x," media="(min-width: 1200px)">
+                  <source srcset="./images/Portfolio6tablet.jpg 1x, ./images/Portfolio6tablet@2x.jpg 2x," media="(min-width: 768px)">
+                  <source srcset="./images/Portfolio6mobile.jpg 1x, ./images/Portfolio6mobile@2x.jpg 2x," media="(max-width: 767px)">
+                    <img
+                      src="./images/Portfolio6.jpg"
+                      alt="a woman in headphones with a smartphone listens to music or courses"
+                      width="360"
+                    />
+                 </picture>
+
                   <div class="services-overlay">
                     <p class="services-overlay-text">
                       14 Stylish and User-Friendly App Design Concepts · Task Manager
@@ -278,11 +325,17 @@
             <li class="item types-services">
               <a href="" class="services-wrap link">
                 <div class="services-item-wrap">
-                  <img
-                    src="./images/Portfolio7.jpg"
-                    alt="application with instagram stories concept"
-                    width="360"
-                  />
+                  <picture>
+                    <source srcset="./images/Portfolio7desktop.jpg 1x, ./images/Portfolio7desktop@2x.jpg 2x," media="(min-width: 1200px)">
+                    <source srcset="./images/Portfolio7tablet.jpg 1x, ./images/Portfolio7tablet@2x.jpg 2x," media="(min-width: 768px)">
+                    <source srcset="./images/Portfolio7mobile.jpg 1x, ./images/Portfolio7mobile@2x.jpg 2x," media="(max-width: 767px)">
+                    <img
+                      src="./images/Portfolio7.jpg"
+                      alt="application with instagram stories concept"
+                      width="360"
+                    />
+                  </picture>
+
                   <div class="services-overlay">
                     <p class="services-overlay-text">
                       14 Stylish and User-Friendly App Design Concepts · Task Manager
@@ -300,11 +353,17 @@
             <li class="item types-services">
               <a href="" class="services-wrap link">
                 <div class="services-item-wrap">
-                  <img
-                    src="./images/Portfolio8.jpg"
-                    alt="mesh bag with organic food"
-                    width="360"
-                  />
+                  <picture>
+                    <source srcset="./images/Portfolio8desktop.jpg 1x, ./images/Portfolio8desktop@2x.jpg 2x," media="(min-width: 1200px)">
+                    <source srcset="./images/Portfolio8tablet.jpg 1x, ./images/Portfolio8tablet@2x.jpg 2x," media="(min-width: 768px)">
+                    <source srcset="./images/Portfolio8mobile.jpg 1x, ./images/Portfolio8mobile@2x.jpg 2x," media="(max-width: 767px)">
+                    <img
+                      src="./images/Portfolio8.jpg"
+                      alt="mesh bag with organic food"
+                      width="360"
+                    />
+                  </picture>
+
                   <div class="services-overlay">
                     <p class="services-overlay-text">
                       14 Stylish and User-Friendly App Design Concepts · Task Manager
@@ -322,11 +381,17 @@
             <li class="item types-services">
               <a href="" class="services-wrap link">
                 <div class="services-item-wrap">
-                  <img
-                    src="./images/Portfolio9.jpg"
-                    alt="a cup coffee with milk"
-                    width="360"
-                  />
+               <picture>
+                <source srcset="./images/Portfolio9desktop.jpg 1x, ./images/Portfolio9desktop@2x.jpg 2x," media="(min-width: 1200px)">
+                <source srcset="./images/Portfolio9tablet.jpg 1x, ./images/Portfolio9tablet@2x.jpg 2x," media="(min-width: 768px)">
+                <source srcset="./images/Portfolio9mobile.jpg 1x, ./images/Portfolio9mobile@2x.jpg 2x," media="(max-width: 767px)">
+                    <img
+                      src="./images/Portfolio9.jpg"
+                      alt="a cup coffee with milk"
+                      width="360"
+                    />
+               </picture>
+
                   <div class="services-overlay">
                     <p class="services-overlay-text">
                       14 Stylish and User-Friendly App Design Concepts · Task Manager

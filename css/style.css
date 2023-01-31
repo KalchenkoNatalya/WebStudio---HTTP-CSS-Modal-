@@ -196,6 +196,20 @@ ul {
     padding-top: 40px;
   }
 
+  .mobile-menu-item-page {
+     color: var(--background-dark-color);
+    transition: color 300ms linear;
+  }
+
+ .mobile-menu-item-page:hover,
+  .mobile-menu-item-page:focus {
+    color: var(--hover-background-color);
+  }
+
+
+
+
+
 
 
   .mobile-menu-link-page {
@@ -373,7 +387,7 @@ ul {
 
 /* ---------Hero-------- */
 
-@media screen and (min-width:280px) {
+@media screen and (min-width:320px) {
   .hero-wrap {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Hero-bg-mobile.jpg);
     background-repeat: no-repeat;
@@ -384,10 +398,10 @@ ul {
     margin: 0 auto;
   }
 
-  @media (min-device-pixel-ratio: 2) and (min-width: 280px),
-  (-webkit-min-device-pixel-ratio: 2) and (min-width: 280px),
-  (min-resolution: 192dpi) and (min-width: 280px),
-  (min-resolution: 2dppx) and (min-width: 280px) {
+  @media (min-device-pixel-ratio: 2) and (min-width: 320px),
+  (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px),
+  (min-resolution: 192dpi) and (min-width: 320px),
+  (min-resolution: 2dppx) and (min-width: 320px) {
     .hero-wrap {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Hero-bg-mobile@2x.jpg);
     }
@@ -501,7 +515,7 @@ ul {
   }
 }
 
-@media screen and (min-width:280px) {
+@media screen and (min-width:320px) {
   .visualy-hidden {
     position: absolute;
     width: 1px;
@@ -646,7 +660,7 @@ ul {
 
 
 /* ------Section 3 Our team------ */
-@media screen and (min-width:280px) {
+@media screen and (min-width:320px) {
 
   .section.team {
     padding-top: 96px;
@@ -782,7 +796,7 @@ ul {
 
 
 /* ---------Customers------- */
-@media screen and (min-width:280px) {
+@media screen and (min-width:320px) {
   .section-customers {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -870,7 +884,7 @@ ul {
 
 /*--------- Footer------- */
 
-@media screen and (min-width:280px) {
+@media screen and (min-width:320px) {
   .footer {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -1292,7 +1306,7 @@ ul {
 
 
 /*============== Portfolio======= */
-@media screen and (min-width:280px) {
+@media screen and (min-width:320px) {
 
   .section-portfolio {
     padding-top: 48px;

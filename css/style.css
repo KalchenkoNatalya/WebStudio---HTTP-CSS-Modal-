@@ -197,20 +197,14 @@ ul {
   }
 
   .mobile-menu-item-page {
-     color: var(--background-dark-color);
+    color: var(--background-dark-color);
     transition: color 300ms linear;
   }
 
- .mobile-menu-item-page:hover,
+  .mobile-menu-item-page:hover,
   .mobile-menu-item-page:focus {
     color: var(--hover-background-color);
   }
-
-
-
-
-
-
 
   .mobile-menu-link-page {
 
@@ -231,7 +225,6 @@ ul {
   .mobile-menu-item-page:not(:last-child) {
     margin-bottom: 40px;
   }
-
 
   .mobile-menu-list-contacts {
     margin-bottom: 48px;
@@ -467,7 +460,6 @@ ul {
     line-height: 1.07;
   }
 
-
 }
 
 @media (min-device-pixel-ratio: 2) and (min-width: 767px),
@@ -671,7 +663,6 @@ ul {
   .team {
     background-color: var(--background-light-color);
   }
-
 
   .team-title {
     margin-bottom: 72px;
@@ -907,7 +898,7 @@ ul {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    /* display: flex; */
+
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -1303,8 +1294,6 @@ ul {
 
 
 
-
-
 /*============== Portfolio======= */
 @media screen and (min-width:320px) {
 
@@ -1366,9 +1355,6 @@ ul {
   .services-filter:nth-last-child(-n + 2) {
     margin-bottom: 0;
   }
-
-
-
 
   .services-list {
     display: flex;
@@ -1454,8 +1440,6 @@ ul {
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
   }
-
-
 }
 
 
@@ -1465,6 +1449,7 @@ ul {
     padding-top: 64px;
     padding-bottom: 96px;
   }
+
   .services {
     flex-wrap: nowrap;
     justify-content: center;
@@ -1476,21 +1461,20 @@ ul {
     margin: 0;
   }
 
-
   .services-list {
     justify-content: flex-start;
     column-gap: 24px;
     row-gap: 72px;
   }
 
-
   .types-services {
-    width: calc((100% - 24px) / 2);    
+    width: calc((100% - 24px) / 2);
   }
+
   .types-services:not(:last-child) {
     margin-bottom: 0;
   }
-  
+
 }
 
 @media screen and (min-width:1200px) {
